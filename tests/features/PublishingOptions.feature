@@ -12,7 +12,7 @@ Scenario: Verifying that the unwanted publishing options are not visible when cr
    Then I should not see "Promoted to front page" in the "#edit-workflow" element
     And I should not see "Sticky at top of lists" in the "#edit-workflow" element
 
-Scenario: Verifying that the unwanted publishing options are not visible when creating new content types
+Scenario: Verifying that the unwanted publishing, options are not visible when creating new content types
   Given I am logged in as a user with the "administrator" role
    When I visit "/node/add/page"
    Then I should not see "Promoted to front page" in the "#edit-options" element
