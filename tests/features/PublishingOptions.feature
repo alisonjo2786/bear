@@ -1,5 +1,5 @@
 @api
-Feature: Default Publishing Options for Content and Content Types
+Feature: Default Publishing Options for Content, and Content Types
   When I created a new content type or new content
   Then I should not see "Promoted to front page" or "Sticky at top of lists" under Publishing Options
   To make the process of creating new content types and content more efficient
